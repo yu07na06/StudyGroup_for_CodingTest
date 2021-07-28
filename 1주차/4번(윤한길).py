@@ -14,7 +14,7 @@ input = sys.stdin.readline
 T = int(input())
 N = [int(input()) for _ in range(T)]
 
-dp = [False for _ in range(10001)]
+dp = [False for _ in range(max(N)+1)]
 
 dp[1] = 1
 dp[2] = 2
