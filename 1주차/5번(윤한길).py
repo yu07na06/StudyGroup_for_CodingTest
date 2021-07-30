@@ -17,7 +17,9 @@ def solution(orders, course):
         #     continue
         tmp = []
         for j in orders:
+            #j sort하는 이유 : case 3 -> wx xw 카운트를 못하기떄문에 미리 sort하고 카운트할수 있게하기
             tmp += combinations(sorted(j), i)
+        # case3: 문자열 최대길이는 3인데 course에 4가 돌아가면 tmp가 empty가 됨
         if tmp:
             max_counted = max(Counter(tmp).values())
         if max_counted > 1:
