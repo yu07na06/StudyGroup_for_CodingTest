@@ -24,6 +24,26 @@ C4                  mirkovniz
 # else:
 #     print(s)
 
+############################################################
+
+# import sys
+#
+# input = sys.stdin.readline
+#
+# s = input().strip()
+# bomb = input().strip()
+#
+# while True:
+#     if s.replace(bomb, '') == s:
+#         break
+#     s = s.replace(bomb, '')
+#
+# if not s:
+#     print('FRULA')
+# else:
+#     print(s)
+
+############################################################
 
 import sys
 
