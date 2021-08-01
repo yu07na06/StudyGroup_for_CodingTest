@@ -29,13 +29,13 @@
 ***
 + 화요일
   
-  1. 
-  2. 
+  1. [2020 KAKAO BLIND RECRUITMENT 가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
+  2. [boj 13023 ] (https://www.acmicpc.net/problem/13023)
 
 + 목요일
 
   3. 
-  4. 
+  4. [boj 1107 리모컨](https://www.acmicpc.net/problem/1107)
 
 + 일요일
 
