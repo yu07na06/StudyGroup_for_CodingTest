@@ -40,7 +40,7 @@
 + 일요일
 
   5. [2020 KAKAO BLIND RECRUITMENT - 가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
-  6. 
+  6. [boj 1946 신입 사원](https://www.acmicpc.net/problem/1946)
 
 ***
 3주차(8.9~) **제조업**
