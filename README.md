@@ -29,7 +29,7 @@
 ***
 + 화요일
   
-  1. [2020 KAKAO BLIND RECRUITMENT 가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
+  1. [2021 카카오 채용연계형 인턴십 - 거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)
   2. [boj 13023 ABCDE](https://www.acmicpc.net/problem/13023)
 
 + 목요일
@@ -39,7 +39,7 @@
 
 + 일요일
 
-  5. 
+  5. [2020 KAKAO BLIND RECRUITMENT - 가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
   6. 
 
 ***
