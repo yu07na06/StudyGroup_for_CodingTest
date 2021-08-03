@@ -9,7 +9,7 @@
 + 목요일
 
   3. [이름에 el이 들어가는 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59047) **(SQL)**
-  4. [boj 1107 리모컨](https://www.acmicpc.net/problem/1107)
+  4. [boj 1107 리모컨](https://www.acmicpc.net/problem/1107)  
   (스페셜) [BFS와 DFS](https://www.acmicpc.net/problem/1260)
 
 + 일요일
