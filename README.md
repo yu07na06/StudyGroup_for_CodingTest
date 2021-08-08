@@ -49,18 +49,18 @@
 ***
 + 화요일
   
-  1. 
-  2. 
+  1. 보석 쇼핑 : https://programmers.co.kr/learn/courses/30/lessons/67258
+  2. 효율적인 해킹 : https://www.acmicpc.net/problem/1325
 
 + 목요일
 
-  3. 
-  4. 
+  3. 순위 검색 : https://programmers.co.kr/learn/courses/30/lessons/72412
+  4. 헤비 유저가 소유한 장소(SQL) : https://programmers.co.kr/learn/courses/30/lessons/77487
 
 + 일요일
 
-  5. 
-  6. 
+  5. 다단계 칫솔 판매 : https://programmers.co.kr/learn/courses/30/lessons/77486
+  6. Count Circle Groups : https://www.acmicpc.net/problem/10216
 
 ***
 4주차(8.16~) **이튤립**
