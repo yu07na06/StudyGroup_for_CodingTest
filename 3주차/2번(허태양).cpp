@@ -2,7 +2,6 @@
 #include <vector>
 #include <cstring>
 #include <queue>
-#include <stack>
 
 using namespace std;
 
@@ -40,19 +39,13 @@ int main() {
         }
       }
     }
-    pq.push({cnt, i});
+    pq.push({cnt, -i});
   }
 
-  stack<int> s;
   int max = pq.top().first;
   while (!pq.empty()) {
-    if (pq.top().first < max) break;
-    s.push(pq.top().second);
+    if (pq.top().first != max) break;
+    cout << -pq.top().second << ' ';
     pq.pop();
-  }
-
-  while (!s.empty()) {
-    cout << s.top() << ' ';
-    s.pop();
   }
 }
