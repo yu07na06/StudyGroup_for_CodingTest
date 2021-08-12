@@ -16,17 +16,19 @@ unordered_map<string, int> umap = {
     {"senior", 2},
     {"chicken", 1},
     {"pizza", 2}};
-vector<int> parsedInfo[4][3][3][3];
+vector<int> parsedInfo[4][3][3][3];  // 개발언어, 직군, 경력, 소울푸드, 점수
 
 vector<int> solution(vector<string> info, vector<string> query) {
     for (string& s : info) {
         stringstream ss(s);
+
         string lang, pos, exp, food;
-        int point;
+        int point;  // // 개발언어, 직군, 경력, 소울푸드, 점수
         ss >> lang >> pos >> exp >> food >> point;
+
         int arr[4] = {umap[lang], umap[pos], umap[exp], umap[food]};
 
-        for (int i = 0; i < (1 << 4); ++i) {
+        for (int i = 0; i < (1 << 4); ++i) {  // 0000~1111
             vector<int> idx(4);
             for (int j = 0; j < 4; ++j) {
                 if (i & (1 << j)) {
