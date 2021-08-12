@@ -77,8 +77,8 @@
 
 + 일요일
 
-  5. [BOJ 12865 평범한 배낭] (https://www.acmicpc.net/problem/12865)
-  6. [우유와 요거트가 담긴 장바구니] (https://programmers.co.kr/learn/courses/30/lessons/62284)
+  5. [BOJ 12865 평범한 배낭](https://www.acmicpc.net/problem/12865)
+  6. [우유와 요거트가 담긴 장바구니](https://programmers.co.kr/learn/courses/30/lessons/62284)
 
 ***
 5주차(8.24~) **???**
