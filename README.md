@@ -67,18 +67,18 @@
 ***
 + 화요일
   
-  1. 
-  2. 
+  1. [BOJ 21608 상어 초등학교](https://www.acmicpc.net/problem/21608)
+  2. [2020 KAKAO BLIND RECRUITMENT - 외벽점검](https://programmers.co.kr/learn/courses/30/lessons/60062)
 
 + 목요일
 
-  3. 
-  4. 
+  3. [BOJ 14502 연구소](https://www.acmicpc.net/problem/14502)
+  4. [2020 카카오 인턴십 - 수식최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)
 
 + 일요일
 
-  5. 
-  6. 
+  5. [BOJ 12865 평범한 배낭] (https://www.acmicpc.net/problem/12865)
+  6. [우유와 요거트가 담긴 장바구니] (https://programmers.co.kr/learn/courses/30/lessons/62284)
 
 ***
 5주차(8.24~) **???**
