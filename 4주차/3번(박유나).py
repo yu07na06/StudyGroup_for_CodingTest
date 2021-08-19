@@ -5,7 +5,21 @@ from collections import deque
 dx=[0, 0, -1, 1]
 dy=[1, -1, 0, 0]
 
-""" 1. 바이러스 퍼트리기 """
+""" 1. 벽 설치하기 """
+def wall(cnt):
+    global Arr_cp
+    if cnt==3: #벽 3개를 설치했으므로, 바이러스 퍼트리고 종료
+        spreed_virus() #바이러스 퍼트리고, 빈칸 세기
+        return True #종료
+
+    for i, j in position_0: #벽이 3개가 아니라면, 빈칸 위치만 탐색
+        if Arr[i][j]==0: #빈칸일 경우, (재귀 전에 행렬에 벽을 하나 설치했기 때문에 확인하는 과정이 필요)
+            Arr[i][j]=1 #빈칸에 벽을 설치
+            Arr_cp=copy.deepcopy(Arr)
+            wall(cnt+1) #벽 하나 설치했으므로 1증가
+            Arr[i][j]=0 #벽 해제
+
+""" 2. 바이러스 퍼트리기 """
 def spreed_virus():
     global out
     count=0; WALL=3
@@ -22,20 +36,6 @@ def spreed_virus():
 
     if len(position_0)-count-WALL> out: #빈칸의 갯수에서 설치한 3개의 벽과 추가적으로 퍼트린 바이러스의 갯수를 뺀 나머지 빈칸의 갯수
         out=len(position_0)-count-WALL #빈칸의 갯수 최대값 찾기
-
-""" 2. 벽 설치하기 """
-def wall(cnt):
-    global Arr_cp
-    if cnt==3: #벽 3개를 설치했으므로, 바이러스 퍼트리고 종료
-        spreed_virus() #바이러스 퍼트리고, 빈칸 세기
-        return True #종료
-
-    for i, j in position_0: #벽이 3개가 아니라면, 빈칸 위치만 탐색
-        if Arr[i][j]==0: #빈칸일 경우, (재귀 전에 행렬에 벽을 하나 설치했기 때문에 확인하는 과정이 필요)
-            Arr[i][j]=1 #빈칸에 벽을 설치
-            Arr_cp=copy.deepcopy(Arr)
-            wall(cnt+1) #벽 하나 설치했으므로 1증가
-            Arr[i][j]=0 #벽 해제
             
 def main():
     global Arr, N, M, position_0, queue_2, out
