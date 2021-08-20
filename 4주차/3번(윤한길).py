@@ -3,24 +3,27 @@ from itertools import combinations
 from collections import deque
 from copy import deepcopy
 
+
 input = sys.stdin.readline
 # 기본 입력값 받기
 N, M = map(int, input().split())    # N = 세로, M = 가로
 graph = [list(map(int, input().split())) for _ in range(N)]
 # empty space 위치 저장
 empty = [[y, x] for y in range(N) for x in range(M) if graph[y][x] == 0]
+virus = [[y, x] for y in range(N) for x in range(M) if graph[y][x] == 2]
 # print(empty)
+# print(virus)
 
 
-def bfs(new_graph, i, j):
+def bfs(new_graph, virus):
     visited = [[False for _ in range(M)] for _ in range(N)]
-    visited[i][j] = True
-    dq = deque([[i, j]])
+    dq = deque([*virus])
     dy = [-1, 1, 0, 0]
     dx = [0, 0, -1, 1]
 
     while dq:
         y, x = dq.popleft()
+        visited[y][x] = True
         for k in range(4):
             new_y = y + dy[k]
             new_x = x + dx[k]
@@ -46,10 +49,8 @@ for com in combinations(empty, 3):
     new_graph = deepcopy(graph)
     for v in com:
         new_graph[v[0]][v[1]] = 1
-    for i in range(N):
-        for j in range(M):
-            if new_graph[i][j] == 2:
-                bfs(new_graph, i, j)
+    # double for loop 제거하고 바이러스 위치정보 통쨰로 한번에 전달해주니 효율성 매우 좋아짐
+    bfs(new_graph, virus)
     answer.append(count_empty_space(new_graph))
 
 print(max(answer))
