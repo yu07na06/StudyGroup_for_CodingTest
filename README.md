@@ -81,21 +81,21 @@
   6. [우유와 요거트가 담긴 장바구니](https://programmers.co.kr/learn/courses/30/lessons/62284)
 
 ***
-5주차(8.24~) **???**
+5주차(8.24~) **박유나**
 ***
 + 화요일
   
-  1. 
-  2. 
+  1. [카카오_광고 삽입] https://programmers.co.kr/learn/courses/30/lessons/72414
+  2. [미친 로봇]https://www.acmicpc.net/problem/1405
 
 + 목요일
 
-  3. 
-  4. 
+  3. [피자 굽기] https://www.acmicpc.net/problem/1756
+  4. [삼성_연구소3] https://www.acmicpc.net/problem/17142
 
 + 일요일
 
-  5. 
-  6. 
+  5. [카카오_합승 택시 요금] https://programmers.co.kr/learn/courses/30/lessons/72413
+  6. [삼성_청소년 상어] https://www.acmicpc.net/problem/19236
 
 ***
