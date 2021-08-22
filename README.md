@@ -95,7 +95,5 @@
 
 + 일요일
 
-  5. [카카오_합승 택시 요금] https://programmers.co.kr/learn/courses/30/lessons/72413
-  6. [삼성_청소년 상어] https://www.acmicpc.net/problem/19236
-
+  5.6. 카카오 2차 코딩 테스트 https://programmers.co.kr/skill_check_assignments/67
 ***
