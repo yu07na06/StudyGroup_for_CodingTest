@@ -26,11 +26,11 @@ def solution(play_time, adv_time, logs):
             if si==sj and ei==ej: continue #같은 시간은 확인하지 않음
             if si+at>pt: continue #시작 시각에 광고 시간을 합쳤을때, 최종 동영상 길이를 넘어설 경우
             if si<=sj and ej<=ei: #si<sj---ej<ei 인 경우(합집합인 경우)
-                if answer>sj and gap<ej-sj:
+                if gap<ej-sj:
                     answer=sj #가장 작은 시작 시간
                     gap=ej-sj #겹치는 부분 정도
             if si<=sj and sj<=ei and ej>=ei: #si<sj--(ei)--ej 인 경우(교집합인 경우)
-                if answer>si and gap<ei-sj:
+                if gap<ei-sj:
                     answer=si #가장 작은 시작 시간
                     gap=ei-sj #겹치는 부분 정도
                     
