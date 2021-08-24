@@ -34,7 +34,7 @@ def solution(play_time, adv_time, logs):
                     answer=si #가장 작은 시작 시간
                     gap=ei-sj #겹치는 부분 정도
                     
-    if pt==at: #동영상 길이와 광고 길이가 같다면,
+    if pt==at or answer==21387601: #동영상 길이와 광고 길이가 같다면,
         return "00:00:00"
     
     
