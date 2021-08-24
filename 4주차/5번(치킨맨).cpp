@@ -9,7 +9,7 @@ int d[101][100001];  // d[i][j] = max(i개 까지 고려했을 때 j무게로 �
 
 int go(int i, int totW) {
     if (i > n) return 0;
-    if (d[i][totW]) return d[i][totW];
+    if (d[i][totW]) return d[i][totW];  // basis
 
     int ans = 0;
     if (w[i] + totW <= k) {  // w[i] 담을 수 있으면 넣고 계속 탐색
