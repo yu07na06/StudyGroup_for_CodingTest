@@ -18,13 +18,9 @@ def solution(play_time, adv_time, logs):
         L_log.append((sH*3600+sM*60+sS, eH*3600+eM*60+eS)) #시청자들 재생 구간 초로 바꿈
     
     
-    """ 2. 조건 """
-    if pt==at: #동영상 길이와 광고 길이가 같다면,
-        return "00:00:00"
-    
+    """ 2. 조건"""
     answer=21387601
     gap=0
-    FLAG=False
     for si, ei in L_log:
         for sj, ej in L_log:
             if si==sj and ei==ej: continue #같은 시간은 확인하지 않음
@@ -37,6 +33,9 @@ def solution(play_time, adv_time, logs):
                 if answer>si and gap<ei-sj:
                     answer=si #가장 작은 시작 시간
                     gap=ei-sj #겹치는 부분 정도
+                    
+    if pt==at: #동영상 길이와 광고 길이가 같다면,
+        return "00:00:00"
     
     
     """ 3. 초 시간을 시,분,초로 바꾸기 """
