@@ -25,5 +25,13 @@ for i in range(D-1, -1, -1):
             break
         idx += 1
 
+if 'answer' in locals():
+    print(answer)
+else:
+    print(0)
 
-print(answer)
+
+# 반례
+# 2 2
+# 1 1
+# 2 2
