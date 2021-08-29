@@ -122,17 +122,17 @@
 
 ---
 
-- 화요일
+- 화요일(백트래킹)
 
   1. [사다리 조작] https://www.acmicpc.net/problem/15684
   2. [청소년 상어] https://www.acmicpc.net/problem/19236
 
-- 목요일
+- 목요일(이분탐색)
 
   3. [개똥 벌레] https://www.acmicpc.net/problem/3020
   4. [가장 긴 증가하는 부분 수열 2] https://www.acmicpc.net/problem/12015
 
-- 일요일
+- 일요일(브루트포스)
 
   5. [2048 (Easy)] https://www.acmicpc.net/problem/12100
   6. [자물쇠와 열쇠] https://programmers.co.kr/learn/courses/30/lessons/60059
