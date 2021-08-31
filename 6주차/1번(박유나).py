@@ -3,17 +3,15 @@ def Exit(): # 종료 함수
     exit()
 
 def check1(arr): # 사다리 확인
-    check=[0]
+    count=0
     for n in range(1, N+1):
-        check.append(n)
         newN=n
         for h in range(1, H+1):
             if arr[h][newN]==0 or arr[h][newN]==-1: continue
-            newN=arr[h][newN]
-            check[n]=newN
-    count=0
-    for i in range(1, len(check)): 
-        if (i != check[i]): count+=1
+            newN=arr[h][newN] # 새로운 값 넣기
+        if n!= newN: #끝과 끝이 다르다면,
+            count+=1 #카운팅
+    
     if count==0:
         return True
     return False
