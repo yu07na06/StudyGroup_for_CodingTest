@@ -21,8 +21,10 @@ bool check(int map[][31]) {
     for(int y=0; y<n; ++y){
         int ty = y;
         for(int x=0; x<h; ++x){
+            if(map[x][ty] == 0) continue;
+            
             if(map[x][ty] % 2 == 1) ++ty;
-            if(map[x][ty] % 2 == 0) --ty;
+            else if(map[x][ty] % 2 == 0) --ty;
         }
         if(y != ty) return false;
     }
@@ -30,25 +32,27 @@ bool check(int map[][31]) {
 }
 
 void dfs(int map[][31], int cnt, int max_cnt) {
-
-    if(cnt == max_cnt && check(map)) {
-        cout << "DONE\n";
-        ans = max_cnt;
-        done = true;
-        return; 
+    if(cnt == max_cnt) {
+        if(check(map)) {
+            ans = max_cnt;
+            done = true;
+            return; 
+        }
+        else return;
     }
 
     // 모든 세로선 방문 후 사다리 가로선 추가하기
     for(int y=0; y<n-1; ++y){
         for(int x=0; x<h; ++x){
-            cout << "\tvisit : " << x << ", " << y << '\n';
             if(map[x][y] || map[x][y+1] || done) continue;
-            cout << "\t\tvisit : " << x << ", " << y << '\n';
-            int c_map[31][31] {}; memcpy(c_map, map, sizeof(c_map));
-            c_map[x][y] = 3;
-            c_map[x][y+1] = 4;
             
-            dfs(c_map, cnt+1, max_cnt);
+            map[x][y] = 3;
+            map[x][y+1] = 4;
+            
+            dfs(map, cnt+1, max_cnt);
+            
+            map[x][y] = 0;
+            map[x][y+1] = 0;
         }
     }
 }
@@ -59,21 +63,19 @@ int main() {
         cout << 0;
         return 0;
     }
-    // for(int x=0; x<m; ++x){
-    //     for(int y=0; y<; ++y){
-    //         ori_map[x][y] = 0;
-    //     }
-    // }
     for(int i=0; i<m; ++i){
         cin>>a>>b; a--, b--;
         ori_map[a][b] = 1;
         ori_map[a][b+1] = 2;
     }
 
-    print(ori_map);
+    if(check(ori_map)){
+        cout << 0;
+        return 0;
+    }
+    // print(ori_map);
 
     for(int max_cnt=1; max_cnt<=3; ++max_cnt) {
-        cout << "max_cnt : " << max_cnt << '\n';
         
         dfs(ori_map, 0, max_cnt);
         if(done) {
