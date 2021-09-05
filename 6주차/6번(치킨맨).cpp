@@ -40,7 +40,6 @@ void tilt(int d) {
 
 int main(void) {
     FASTIO;
-
     cin >> n;
     for (int i = 0; i < n; i++)
         for (int j = 0; j < n; j++)
@@ -48,9 +47,8 @@ int main(void) {
 
     int ans = 0;
     for (int k = 0; k < 1024; ++k) {
-        for (int i = 0; i < n; i++)
-            for (int j = 0; j < n; j++)
-                board_cpy[i][j] = board[i][j];
+        memcpy(board_cpy, board, sizeof(board));
+
         int order = k;
         for (int i = 0; i < 5; i++) {
             int d = order % 4;
