@@ -116,8 +116,6 @@
 
 ---
 
----
-
 6주차(8.30~) **치킨맨**
 
 ---
@@ -136,5 +134,23 @@
 
   5. [2048 (Easy)] https://www.acmicpc.net/problem/12100
   6. [자물쇠와 열쇠] https://programmers.co.kr/learn/courses/30/lessons/60059
+
+---
+
+7주차(9.6~) **윤한길**
+
+---
+
+- 화요일(카카오 코테 대비)
+
+  1. [신규 아이디 추천] https://programmers.co.kr/learn/courses/30/lessons/72410
+  2. [거리두기 확인하기] https://programmers.co.kr/learn/courses/30/lessons/81302
+  3. [표 편집] https://programmers.co.kr/learn/courses/30/lessons/81303
+
+- 목요일(카카오 코테 대비)
+  
+  4. [키패드 누르기] https://programmers.co.kr/learn/courses/30/lessons/67256
+  5. [숫자 문자열과 영단어] https://programmers.co.kr/learn/courses/30/lessons/81301
+  6. [경주로 건설] https://programmers.co.kr/learn/courses/30/lessons/67259
 
 ---
