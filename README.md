@@ -10,24 +10,104 @@
 
 ---
 
-1주차(7.26~) **윤한길**
+7주차(9.6~) **윤한길**
+
+---
+
+- 화요일(카카오 코테 대비)
+
+  1. [신규 아이디 추천] https://programmers.co.kr/learn/courses/30/lessons/72410
+  2. [거리두기 확인하기] https://programmers.co.kr/learn/courses/30/lessons/81302
+  3. [표 편집] https://programmers.co.kr/learn/courses/30/lessons/81303
+
+- 목요일(카카오 코테 대비)
+  
+  4. [키패드 누르기] https://programmers.co.kr/learn/courses/30/lessons/67256
+  5. [숫자 문자열과 영단어] https://programmers.co.kr/learn/courses/30/lessons/81301
+  6. [경주로 건설] https://programmers.co.kr/learn/courses/30/lessons/67259
+
+---
+
+6주차(8.30~) **치킨맨**
+
+---
+
+- 화요일(백트래킹)
+
+  1. [사다리 조작] https://www.acmicpc.net/problem/15684
+  2. [청소년 상어] https://www.acmicpc.net/problem/19236
+
+- 목요일(이분탐색)
+
+  3. [개똥 벌레] https://www.acmicpc.net/problem/3020
+  4. [가장 긴 증가하는 부분 수열 2] https://www.acmicpc.net/problem/12015
+
+- 일요일(브루트포스)
+
+  5. [2048 (Easy)] https://www.acmicpc.net/problem/12100
+  6. [자물쇠와 열쇠] https://programmers.co.kr/learn/courses/30/lessons/60059
+
+---
+
+5주차(8.24~) **박유나**
 
 ---
 
 - 화요일
 
-  1.  https://programmers.co.kr/learn/courses/30/lessons/60057
-  2.  https://www.acmicpc.net/problem/2003
+  1. [카카오_광고 삽입] https://programmers.co.kr/learn/courses/30/lessons/72414
+  2. [미친 로봇]https://www.acmicpc.net/problem/1405
 
 - 목요일
 
-  3.  https://programmers.co.kr/learn/courses/30/lessons/43162
-  4.  https://www.acmicpc.net/problem/15989
+  3. [피자 굽기] https://www.acmicpc.net/problem/1756
+  4. [삼성_연구소3] https://www.acmicpc.net/problem/17142
 
 - 일요일
 
-  5.  https://programmers.co.kr/learn/courses/30/lessons/72411
-  6.  https://www.acmicpc.net/problem/9935
+  5.6. 카카오 2차 코딩 테스트 https://programmers.co.kr/skill_check_assignments/67
+
+---
+
+4주차(8.16~) **mind**
+
+---
+
+- 화요일
+
+  1. [BOJ 21608 상어 초등학교](https://www.acmicpc.net/problem/21608)
+  2. [2020 KAKAO BLIND RECRUITMENT - 외벽점검](https://programmers.co.kr/learn/courses/30/lessons/60062)
+
+- 목요일
+
+  3. [BOJ 14502 연구소](https://www.acmicpc.net/problem/14502)
+  4. [2020 카카오 인턴십 - 수식최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)
+
+- 일요일
+
+  5. [BOJ 12865 평범한 배낭](https://www.acmicpc.net/problem/12865)
+  6. [우유와 요거트가 담긴 장바구니](https://programmers.co.kr/learn/courses/30/lessons/62284)
+
+---
+
+3주차(8.9~) **제조업**
+
+---
+
+- 화요일
+
+  1. 보석 쇼핑 : https://programmers.co.kr/learn/courses/30/lessons/67258
+  2. 효율적인 해킹 : https://www.acmicpc.net/problem/1325
+
+- 목요일
+
+  3. 순위 검색 : https://programmers.co.kr/learn/courses/30/lessons/72412
+  4. 헤비 유저가 소유한 장소(SQL) : https://programmers.co.kr/learn/courses/30/lessons/77487
+
+- 일요일
+
+  5. 다단계 칫솔 판매 : https://programmers.co.kr/learn/courses/30/lessons/77486
+  6. Count Circle Groups : https://www.acmicpc.net/problem/10216
 
 ---
 
@@ -54,103 +134,25 @@
 
 ---
 
-3주차(8.9~) **제조업**
+1주차(7.26~) **윤한길**
 
 ---
 
 - 화요일
 
-  1. 보석 쇼핑 : https://programmers.co.kr/learn/courses/30/lessons/67258
-  2. 효율적인 해킹 : https://www.acmicpc.net/problem/1325
+  1.  https://programmers.co.kr/learn/courses/30/lessons/60057
+  2.  https://www.acmicpc.net/problem/2003
 
 - 목요일
 
-  3. 순위 검색 : https://programmers.co.kr/learn/courses/30/lessons/72412
-  4. 헤비 유저가 소유한 장소(SQL) : https://programmers.co.kr/learn/courses/30/lessons/77487
+  3.  https://programmers.co.kr/learn/courses/30/lessons/43162
+  4.  https://www.acmicpc.net/problem/15989
 
 - 일요일
 
-  5. 다단계 칫솔 판매 : https://programmers.co.kr/learn/courses/30/lessons/77486
-  6. Count Circle Groups : https://www.acmicpc.net/problem/10216
+  5.  https://programmers.co.kr/learn/courses/30/lessons/72411
+  6.  https://www.acmicpc.net/problem/9935
 
 ---
 
-4주차(8.16~) **mind**
 
----
-
-- 화요일
-
-  1. [BOJ 21608 상어 초등학교](https://www.acmicpc.net/problem/21608)
-  2. [2020 KAKAO BLIND RECRUITMENT - 외벽점검](https://programmers.co.kr/learn/courses/30/lessons/60062)
-
-- 목요일
-
-  3. [BOJ 14502 연구소](https://www.acmicpc.net/problem/14502)
-  4. [2020 카카오 인턴십 - 수식최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)
-
-- 일요일
-
-  5. [BOJ 12865 평범한 배낭](https://www.acmicpc.net/problem/12865)
-  6. [우유와 요거트가 담긴 장바구니](https://programmers.co.kr/learn/courses/30/lessons/62284)
-
----
-
-5주차(8.24~) **박유나**
-
----
-
-- 화요일
-
-  1. [카카오_광고 삽입] https://programmers.co.kr/learn/courses/30/lessons/72414
-  2. [미친 로봇]https://www.acmicpc.net/problem/1405
-
-- 목요일
-
-  3. [피자 굽기] https://www.acmicpc.net/problem/1756
-  4. [삼성_연구소3] https://www.acmicpc.net/problem/17142
-
-- 일요일
-
-  5.6. 카카오 2차 코딩 테스트 https://programmers.co.kr/skill_check_assignments/67
-
----
-
-6주차(8.30~) **치킨맨**
-
----
-
-- 화요일(백트래킹)
-
-  1. [사다리 조작] https://www.acmicpc.net/problem/15684
-  2. [청소년 상어] https://www.acmicpc.net/problem/19236
-
-- 목요일(이분탐색)
-
-  3. [개똥 벌레] https://www.acmicpc.net/problem/3020
-  4. [가장 긴 증가하는 부분 수열 2] https://www.acmicpc.net/problem/12015
-
-- 일요일(브루트포스)
-
-  5. [2048 (Easy)] https://www.acmicpc.net/problem/12100
-  6. [자물쇠와 열쇠] https://programmers.co.kr/learn/courses/30/lessons/60059
-
----
-
-7주차(9.6~) **윤한길**
-
----
-
-- 화요일(카카오 코테 대비)
-
-  1. [신규 아이디 추천] https://programmers.co.kr/learn/courses/30/lessons/72410
-  2. [거리두기 확인하기] https://programmers.co.kr/learn/courses/30/lessons/81302
-  3. [표 편집] https://programmers.co.kr/learn/courses/30/lessons/81303
-
-- 목요일(카카오 코테 대비)
-  
-  4. [키패드 누르기] https://programmers.co.kr/learn/courses/30/lessons/67256
-  5. [숫자 문자열과 영단어] https://programmers.co.kr/learn/courses/30/lessons/81301
-  6. [경주로 건설] https://programmers.co.kr/learn/courses/30/lessons/67259
-
----
