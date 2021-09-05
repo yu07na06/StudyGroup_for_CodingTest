@@ -46,18 +46,18 @@ int main(void) {
             cin >> board[i][j];
 
     int ans = 0;
-    for (int k = 0; k < 1024; ++k) {
+    for (int k = 0; k < 1024; ++k) {  // 4^5 = 1024
         memcpy(board_cpy, board, sizeof(board));
 
         int order = k;
         for (int i = 0; i < 5; i++) {
             int d = order % 4;
-            order /= 4;
+            order >>= 2;
             tilt(d);
         }
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                ans = max(ans, board_cpy[i][j]);
+                if (ans < board_cpy[i][j]) ans = board_cpy[i][j];
             }
         }
     }
