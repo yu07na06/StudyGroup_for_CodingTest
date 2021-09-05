@@ -1,62 +1,67 @@
-// 자물쇠와 열쇠
+#include <cstring>
+#include <iostream>
 #include <vector>
 using namespace std;
+#define FASTIO cin.tie(nullptr)->sync_with_stdio(false)
 
-int m, n;
-vector<vector<int>> Lock, Lock_cpy, Key;
+int n;
+int board[21][21], board_cpy[21][21];
 
 void rotate() {
-    vector<vector<int>> tmp(m, vector<int>(m));
-    for (int i = 0; i < m; ++i) {
-        for (int j = 0; j < m; ++j) {
-            tmp[i][j] = Key[j][m - i - 1];
-        }
-    }
+    int tmp[21][21];
+    memcpy(tmp, board_cpy, sizeof(board_cpy));
 
-    Key = tmp;
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < n; j++)
+            board_cpy[i][j] = tmp[n - 1 - j][i];
 }
 
-bool unlock(int r, int c) {
-    for (int i = r; i < r + m; ++i) {
-        for (int j = c; j < c + m; ++j) {
-            Lock[i][j] += Key[i - r][j - c];
-        }
-    }
+void tilt(int d) {
+    while (d--) rotate();
 
-    for (int i = m; i < m + n; ++i) {
-        for (int j = m; j < m + n; ++j) {
-            if (Lock[i][j] != 1) {
-                return false;
+    for (int i = 0; i < n; i++) {
+        int tmpArr[21] = {};
+        int idx = 0;
+        for (int j = 0; j < n; j++) {
+            if (!board_cpy[i][j]) continue;
+            if (!tmpArr[idx])
+                tmpArr[idx] = board_cpy[i][j];
+            else if (tmpArr[idx] == board_cpy[i][j]) {
+                tmpArr[idx] *= 2;
+                ++idx;
+            } else {
+                ++idx;
+                tmpArr[idx] = board_cpy[i][j];
+            }
+        }
+        for (int j = 0; j < n; j++) board_cpy[i][j] = tmpArr[j];
+    }
+}
+
+int main(void) {
+    FASTIO;
+    cin >> n;
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < n; j++)
+            cin >> board[i][j];
+
+    int ans = 0;
+    for (int k = 0; k < 1024; ++k) {
+        memcpy(board_cpy, board, sizeof(board));
+
+        int order = k;
+        for (int i = 0; i < 5; i++) {
+            int d = order % 4;
+            order /= 4;
+            tilt(d);
+        }
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                ans = max(ans, board_cpy[i][j]);
             }
         }
     }
 
-    return true;
-}
-
-bool solution(vector<vector<int>> key, vector<vector<int>> lock) {
-    m = key.size(), n = lock.size();
-    Lock.resize(2 * m + n, vector<int>(2 * m + n));
-
-    for (int i = m, r = 0; i < m + n; ++i, ++r) {
-        for (int j = m, c = 0; j < m + n; ++j, ++c) {
-            Lock[i][j] = lock[r][c];
-        }
-    }
-    Lock_cpy = Lock;
-    Key = key;
-
-    for (int i = 0; i < m + n; ++i) {
-        for (int j = 0; j < m + n; ++j) {
-            for (int k = 0; k < 4; ++k) {
-                rotate();
-                if (unlock(i, j)) {
-                    return true;
-                }
-                Lock = Lock_cpy;
-            }
-        }
-    }
-
-    return false;
+    cout << ans;
+    return 0;
 }
