@@ -16,15 +16,15 @@
 
 - 화요일(카카오 코테 대비)
 
-  1. [신규 아이디 추천] https://programmers.co.kr/learn/courses/30/lessons/72410
-  2. [거리두기 확인하기] https://programmers.co.kr/learn/courses/30/lessons/81302
-  3. [표 편집] https://programmers.co.kr/learn/courses/30/lessons/81303
+  1. [2021 KAKAO BLIND RECRUITMENT - 신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)
+  2. [2021 카카오 채용연계형 인턴십 - 거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)
+  3. [2021 카카오 채용연계형 인턴십 - 표 편집](https://programmers.co.kr/learn/courses/30/lessons/81303)
 
 - 목요일(카카오 코테 대비)
   
-  4. [키패드 누르기] https://programmers.co.kr/learn/courses/30/lessons/67256
-  5. [숫자 문자열과 영단어] https://programmers.co.kr/learn/courses/30/lessons/81301
-  6. [경주로 건설] https://programmers.co.kr/learn/courses/30/lessons/67259
+  4. [2020 카카오 인턴십 - 키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256)
+  5. [2021 카카오 채용연계형 인턴십 - 숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301)
+  6. [2020 카카오 인턴십 - 경주로 건설](https://programmers.co.kr/learn/courses/30/lessons/67259)
 
 ---
 
