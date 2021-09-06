@@ -140,18 +140,18 @@
 
 - 화요일
 
-  1.  https://programmers.co.kr/learn/courses/30/lessons/60057
-  2.  https://www.acmicpc.net/problem/2003
+  1.  [2020 KAKAO BLIND RECRUITMENT- 문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
+  2.  [boj 2003 수들의 합 3](https://www.acmicpc.net/problem/2003)
 
 - 목요일
 
-  3.  https://programmers.co.kr/learn/courses/30/lessons/43162
-  4.  https://www.acmicpc.net/problem/15989
+  3.  [깊이/너비 우선 탐색(DFS/BFS) - 네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)
+  4.  [boj 15989 1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)
 
 - 일요일
 
-  5.  https://programmers.co.kr/learn/courses/30/lessons/72411
-  6.  https://www.acmicpc.net/problem/9935
+  5.  [2021 KAKAO BLIND RECRUITMENT - 메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
+  6.  [boj 9935 문자열 폭발](https://www.acmicpc.net/problem/9935)
 
 ---
 
