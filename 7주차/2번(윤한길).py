@@ -35,7 +35,6 @@ def bfs(l, graph):
     return 1
 
 
-
 def solution(places):
     answer = []
     for i in places:
@@ -50,7 +49,6 @@ def solution(places):
 
     return answer
 
-#16 23 25 26 30
 
 places = [["POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP"], ["POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"], ["PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX"], ["OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"], ["PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"]]
 # places = [["OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"], ["OOOOO", "OOOOO", "OOOOO", "OOOOO", "OOOOO"]]
