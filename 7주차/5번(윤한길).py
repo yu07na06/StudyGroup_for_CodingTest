@@ -3,27 +3,26 @@
 #         .replace('seven', '7').replace('eight', '8').replace('nine', "9").replace('zero', '0')
 #     return answer
 
-import re
-
 
 replacements = [
-    ('one', '1'),
-    ('two', '2'),
-    ('three', '3'),
-    ('four', '4'),
-    ('five', '5'),
-    ('six', '6'),
-    ('seven', '7'),
-    ('eight', '8'),
-    ('nine', '9'),
-    ('zero', '0'),
+    ('one', '1'), ('two', '2'), ('three', '3'), ('four', '4'), ('five', '5'),
+    ('six', '6'), ('seven', '7'), ('eight', '8'), ('nine', '9'), ('zero', '0')
 ]
 
 
 def solution(s):
     for before, after in replacements:
-        s = re.sub(before, after, s)
+        s = s.replace(before, after)
     return int(s)
+
+
+# import re
+
+
+# def solution(s):
+#     for before, after in replacements:
+#         s = re.sub(before, after, s)
+#     return int(s)
 
 
 if __name__ == '__main__':
