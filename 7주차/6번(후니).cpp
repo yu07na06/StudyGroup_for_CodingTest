@@ -8,7 +8,7 @@ struct P { int x,y,w; };
 using namespace std;
 int n,ans;
 int dx[]={0,1,0,-1};
-int dy[]={1,0,-1,0};
+int dy[]={1,0,-1,0}; 
 
 void print(int v[MAX][MAX][4]){
     F(x,n){F(y,n){cout<<v[x][y][0]/100<<' ';}cout<<'\n';}cout<<'\n';
