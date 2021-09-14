@@ -22,12 +22,12 @@
 - 목요일
   
   3. [위클리 챌린지 - 4주차_직업군 추천하기](https://programmers.co.kr/learn/courses/30/lessons/84325)
-  4. [백준 - 용액](https://www.acmicpc.net/problem/2467)
+  4. [백준 2467번 - 용액](https://www.acmicpc.net/problem/2467)
 
 - 일요일
 
   5. [위클리 챌린지 - 3주차_퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021)
-  6. [성냥개비](https://www.acmicpc.net/problem/3687)
+  6. [백준 3687번 - 성냥개비](https://www.acmicpc.net/problem/3687)
 
 ---
 
