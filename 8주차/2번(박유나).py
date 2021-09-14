@@ -4,7 +4,8 @@ def solution(scores):
         temp=[]
         for j in range(len(scores)):
             temp.append(scores[j][i])
-        if (temp[i]==min(temp) or temp[i]==max(temp)) and temp.count(temp[i]): del temp[i]
+            
+        if (temp[i]==min(temp) or temp[i]==max(temp)) and temp.count(temp[i])==1: del temp[i]
         
         number=sum(temp)/len(temp)
         
