@@ -1,6 +1,16 @@
 def solution(table, languages, preference):
-    answer = ''
-    return answer
+    length = len(languages)
+    pref = []
+
+    for i in table:
+        tmp = i.split()
+        total = 0
+        for j in range(length):
+            if languages[j] in tmp[1:]:
+                total += abs(tmp.index(languages[j]) - 6) * preference[j]
+        pref.append([total, tmp[0]])
+    # print(pref)
+    return sorted(pref, key=lambda x: (-x[0], x[1]))[0][1]
 
 
 if __name__ == '__main__':
