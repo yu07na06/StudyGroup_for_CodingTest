@@ -17,8 +17,6 @@ int main(){
     for(int i=0;i<c-l;++i) v[v.size()-1 - i] = 1;
     
     do {
-        // for(int i : v) cout << i << ", "; cout << '\n';
-        
         int cnt_vowel = 0, cnt_consonant = 0;
         string docs = "";
         for(int i=0; i<v.size(); ++i) if(v[i]==0) {
@@ -30,7 +28,6 @@ int main(){
                 cnt_consonant++;
         }
         
-        // cout << ": " << docs << '\n';
         if(cnt_vowel >= MIN_VOWEL && cnt_consonant >= MIN_CONSONANT)
             cout << docs << '\n';
         
