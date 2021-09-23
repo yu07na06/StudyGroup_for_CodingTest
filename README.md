@@ -10,6 +10,27 @@
 
 ---
 
+9주차(9.20~) **박유나**
+
+---
+
+- 화요일
+
+  1. [위클리 챌린지 - 5주차_모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512)
+  2. [백준 1927번 - 최소힙](https://www.acmicpc.net/problem/1927)
+
+- 목요일
+  
+  3. [위클리 챌린지 - 6주차_복서 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/85002)
+  4. [백준 7569번 - 토마토](https://www.acmicpc.net/problem/7569)
+
+- 일요일
+
+  5. [위클리 챌린지 - 7주차_???](https://programmers.co.kr/learn/courses/30/lessons/86048)
+  6. [백준 1759번 - 암호만들기](https://www.acmicpc.net/problem/1759)
+
+---
+
 8주차(9.13~) **윤한길**
 
 ---
