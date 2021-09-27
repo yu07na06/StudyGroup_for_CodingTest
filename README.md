@@ -10,6 +10,27 @@
 
 ---
 
+10주차(9.27~) **윤한길**
+
+---
+
+- 화요일
+
+  1. [위클리 챌린지 - 8주차_최소직사각형](https://programmers.co.kr/learn/courses/30/lessons/86491)
+  2. [2021 Dev-Matching: 웹 백엔드 - 로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484)
+
+- 목요일
+  
+  3. []()
+  4. []()
+
+- 일요일
+
+  5. []()
+  6. []()
+
+---
+
 9주차(9.20~) **박유나**
 
 ---
