@@ -1,6 +1,11 @@
 def solution(sizes):
-    answer = 0
-    return answer
+    width, height = [], []
+    for i in sizes:
+        i.sort()
+    for i in sizes:
+        width.append(i[0])
+        height.append(i[1])
+    return max(width) * max(height)
 
 
 if __name__ == '__main__':
