@@ -22,12 +22,12 @@
 - 목요일
   
   3. []()
-  4. []()
+  4. [백준 3190번- 뱀](https://www.acmicpc.net/problem/3190)
 
 - 일요일
 
   5. []()
-  6. []()
+  6. [백준 8980번 - 택배](https://www.acmicpc.net/problem/8980)
 
 ---
 
