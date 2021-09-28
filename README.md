@@ -21,12 +21,12 @@
 
 - 목요일
   
-  3. []()
+  3. [2019 카카오 개발자 겨울 인턴십 - 불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064)
   4. [백준 3190번- 뱀](https://www.acmicpc.net/problem/3190)
 
 - 일요일
 
-  5. []()
+  5. [백준 14889번- 스타트 택시](https://www.acmicpc.net/problem/14889)
   6. [백준 8980번 - 택배](https://www.acmicpc.net/problem/8980)
 
 ---
