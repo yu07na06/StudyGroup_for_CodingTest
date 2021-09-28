@@ -1,5 +1,13 @@
 def solution(lottos, win_nums):
-    answer = []
+    num_zeros = lottos.count(0)
+    set_lottos = set(lottos) - set([0])
+    set_win_nums = set(win_nums)
+
+    intersection_nums = len(set_win_nums & set_lottos)
+    answer = [intersection_nums + num_zeros, intersection_nums] # 매치된 갯수(최대, 최소)
+    # answer = [1 if i == 6 else 2 if i == 5 else 3 if i == 4 else 4 if i == 3 else 5 if i == 2 else 6 for i in answer]
+    answer = [7 - i if 2 <= i <= 6 else 6 for i in answer]
+
     return answer
 
 
